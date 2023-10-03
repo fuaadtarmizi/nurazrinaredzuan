@@ -8,13 +8,18 @@ const Home = () => {
   }, 
   []); 
   return (
-    <main className="scroll-smooth"> 
+    <main className="scroll-smooth">  
     <body className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
       <div id="__next">
-        <MouseEffect />
-        <div className="__variable_20b187 group/spotlight relative">
-        <div className="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute"></div>
+      
+      <MouseEffect/>
+    
+      
+      
+        
       <div className="mx-auto max-w-screen-xl min-h-screen px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+      
+      <a href="#content" className="absolute left-0 top-0 block -translate-x-full rounded bg-gradient-to-br from-teal-400 via-blue-500 to-purple-600 px-4 py-3 text-sm font-bold uppercase tracking-widest text-white focus-visible:translate-x-0">Skip to Content</a>
       <div className="lg:flex lg:justify-between lg:gap-4">
       <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
         <div>
@@ -22,7 +27,7 @@ const Home = () => {
         <h2 className=" mt-3 lg:text-2xl font-medium tracking-tight text-slate-200 sm:text-xl">Software Developer</h2>
         <p className="mt-4 max-w-xs text-lg leading-normal bg-opacity-5 text-slate-500">Im a software developer based in Damansara,Malaysia. Focus on Web Development and </p>
         
-        <nav className=" hidden lg:block" aria-label="In-page jump links">
+        <nav className=" hidden lg:block">
           <ul className="mt-16 w-max">
             <li>
               <a className="group flex items-center py-3 active" href="#about">
@@ -31,7 +36,8 @@ const Home = () => {
                 </a>
                 </li>
                 <li>
-                  <a className="group flex items-center py-3 " href="#experience"><span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                  <a className="group flex items-center py-3 " href="#experience">
+                    <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
                   <span className="nav-text text-base font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Experience</span>
                 </a>
             </li>
@@ -46,6 +52,7 @@ const Home = () => {
           </div>
       
       <section className="ml-1 mt-8 flex items-center" aria-label="Social media">
+      
         <div className="mr-5 text-xs">
             <a className="block hover:text-slate-200" href="https://github.com/bchiang7" target="_blank" rel="noreferrer">
               <span className="sr-only">GitHub</span>
@@ -76,13 +83,10 @@ const Home = () => {
                 <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
                 </svg>
              </a>
-          </div>
-            
-          
-          
+          </div>   
       </section>
       </header>
-      < main className="pt-24 lg:w-1/2 lg:py-24">
+      < div id="content" className="pt-24 lg:w-1/2 lg:py-24">
           <section id="about" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="About me">
             <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
              <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">About</h2>
@@ -213,6 +217,26 @@ const Home = () => {
                   <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
                   <div className="z-10 sm:order-2 sm:col-span-6">
                     <h3>
+                    <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" href="https://github.com/fuaadtarmizi/myportfolio" target="_blank" rel="noreferrer" aria-label="Build a Spotify Connected App">
+                        <span>My Portfolio
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd"></path></svg>
+                        </span>
+                    </a>
+                    </h3>
+                    <p className="mt-2 text-base leading-normal">My web portfolio. The sidebar area smoothly scrolls to the following section when you click on it. I've also added a point mouse with a sportlight so that everytime you aim it, a sportlight appears.</p>
+                  </div>
+                  <img src="web.jpg" alt="web"
+                  className=" rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1" 
+                  width={200} 
+                  height={48}                 
+                  />
+                </div>
+                </div>
+                <div className="mb-12">
+                <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                  <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                  <div className="z-10 sm:order-2 sm:col-span-6">
+                    <h3>
                     <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base" href="https://www.figma.com/file/KE5bVo2iFOADtAr69o7U0C/Untitled?type=design&node-id=0%3A1&mode=design&t=46fljPhHsrJMoPPT-1" target="_blank" rel="noreferrer" aria-label="Build a Spotify Connected App">
                         <span>Website Design Mockup
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fillRule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clipRule="evenodd"></path></svg>
@@ -232,17 +256,12 @@ const Home = () => {
             </div>
             
           </section>
-          
-        
-      </main>
+      </div>
  
     </div>
     </div>
     
-    </div>
-    </div>
-    
-      
+    </div>  
   </body>
   </main>
   );

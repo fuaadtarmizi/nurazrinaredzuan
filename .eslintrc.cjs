@@ -18,3 +18,11 @@ module.exports = {
     ],
   },
 }
+module.exports = {
+  parser: '@babel/eslint-parser', // If you're using Babel
+  // OR parser: '@swc-node/parser', // If you're using SWC
+  extends: ['plugin:react/recommended'],
+  rules: {
+    // Add your ESLint rules here
+  },
+};

@@ -18,7 +18,7 @@ const Home = () => {
       <div className="lg:flex lg:justify-between lg:gap-4">
       <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
         <div>
-        <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl" href="https://fuaadtarmizii.vercel.app/" >Fuaad Tarmizi</h1>  
+        <a className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl" href="https://fuaadtarmizi.vercel.app/" >Fuaad Tarmizi</a>  
         <h2 className=" mt-3 lg:text-2xl font-medium tracking-tight text-slate-200 sm:text-xl">Software Developer</h2>
         <p className="mt-4 max-w-xs text-lg leading-normal bg-opacity-5 text-slate-500">Im a software developer based in Damansara,Malaysia. </p>
         

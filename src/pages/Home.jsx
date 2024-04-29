@@ -20,7 +20,7 @@ const Home = () => {
         <div>
         <a className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl" href="https://fuaadtarmizi.vercel.app/" >Nurazrina Redzuan</a>  
         <h2 className=" mt-3 lg:text-2xl font-medium tracking-tight text-slate-200 sm:text-xl">Financial Management</h2>
-        <p className="mt-4 max-w-xs text-lg leading-normal bg-opacity-5 text-slate-500">I'm a Financial Management based in Rawang, Selangor. </p>
+        <p className="mt-4 max-w-xs text-lg leading-normal bg-opacity-5 text-slate-500">I'm a Financial Management based in Damansara, Selangor. </p>
         
         <nav className=" hidden lg:block">
           <ul className="mt-16 w-max">

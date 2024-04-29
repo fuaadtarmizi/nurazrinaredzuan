@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 
 const Home = () => {
   useEffect(() => {
-    document.title = 'Steve Rogers ';  
+    document.title = 'Nurazrina Redzuan ';  
   }, 
   []); 
   return (
@@ -18,7 +18,7 @@ const Home = () => {
       <div className="lg:flex lg:justify-between lg:gap-4">
       <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
         <div>
-        <a className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl" href="https://fuaadtarmizi.vercel.app/" >Nurazrina Redzuan</a>  
+        <a className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl" href="https://nurazrinaredzuan.vercel.app/" >Nurazrina Redzuan</a>  
         <h2 className=" mt-3 lg:text-2xl font-medium tracking-tight text-slate-200 sm:text-xl">Financial Management</h2>
         <p className="mt-4 max-w-xs text-lg leading-normal bg-opacity-5 text-slate-500">I'm a Financial Management based in Damansara, Selangor. </p>
         

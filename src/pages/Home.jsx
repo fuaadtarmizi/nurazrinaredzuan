@@ -19,8 +19,8 @@ const Home = () => {
       <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
         <div>
         <a className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl" href="https://nurazrinaredzuan.vercel.app/" >Nurazrina Redzuan</a>  
-        <h2 className=" mt-3 lg:text-2xl font-medium tracking-tight text-slate-200 sm:text-xl">Financial Management</h2>
-        <p className="mt-4 max-w-xs text-lg leading-normal bg-opacity-5 text-slate-500">I'm a Financial Management based in Damansara, Selangor. </p>
+        <h2 className=" mt-3 lg:text-2xl font-medium tracking-tight text-slate-200 sm:text-xl">Finance</h2>
+        <p className="mt-4 max-w-xs text-lg leading-normal bg-opacity-5 text-slate-500">I'm a Finance based in Damansara, Selangor. </p>
         
         <nav className=" hidden lg:block">
           <ul className="mt-16 w-max">
@@ -79,7 +79,7 @@ const Home = () => {
              <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">About</h2>
               </div>
               <div>
-              <p className="mb-4 text-base">Hello! My name is Nurazrina Redzuan, I am writing to you to express my interest in the Director of Finance position. I have done my Diploma in Financial Mathematics, plus two years of experience in the finance industry.</p>
+              <p className="mb-4 text-base">Hello! My name is Nurazrina Redzuan, I am writing to you to express my interest of Finance position. I have done my Diploma in Financial Mathematics.</p>
                 <p className="mb-4 text-base">During the time, I have honed my skills in budgeting, forecasting and financial analysis. I have a deep understanding of financial goals and strategies, as well as creating and implementing new financial processes and procedures.</p>           
                 <p className="text-base">Im an organized and details-oriented professional with the ability to work independently and collaboratively to meet deadlines. I am also an excellent communicator and have an impressive track record of successful financial management.</p>
               </div>
